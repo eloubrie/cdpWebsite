@@ -1,0 +1,109 @@
+/* Général ------------------------------------------------------------------------------------- */
+
+body, p, legend, label, input {
+    font: normal 14pt serif, sans-serif;
+}
+
+/* Forms --------------------------------------------------------------------------------------- */
+fieldset {
+    padding: 10px;
+    border: 2px #0568CD solid;
+    margin: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #0568CD;
+	font-size:20px;
+}
+
+form label {
+	font-size:16px;
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+
+form input.sansLabel {
+	x
+    margin-left: 200px;
+}
+
+/* Styles et couleurs -------------------------------------------------------------------------- */
+.requis {
+    color: #c00;
+}
+
+.erreur {
+    color: #900;
+}
+
+.succes {
+    color: #090;
+}
+
+.info {
+    font-style: italic;
+    color: #E8A22B;
+}
+
+/* header de listeAteliers */
+.CSSHeaderListeAteliers{
+	font-style: italic;
+	text-decoration: underline;
+	color: #59F26E;
+}
+
+/* Table CSS*/
+.CSSTableGenerator {
+	width:100%;
+	border:1px solid #f4f4f4;	
+}
+
+/* Table entiere */
+.CSSTableGenerator table{
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:70%;
+	height:70%;
+}
+
+/* Table sur chaque case */
+.CSSTableGenerator td{
+	vertical-align:middle;
+	background:-o-linear-gradient(bottom, #aad4ff 5%, #ffffff 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #aad4ff), color-stop(1, #ffffff) ); 
+	background:-moz-linear-gradient( center top, #aad4ff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#aad4ff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#aad4ff,ffffff);
+
+	background-color:#aad4ff;
+
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:7px;
+	font-size:18px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}
+
+/* Table pour les headers */
+.CSSTableGenerator tr:first-child td{
+	background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);	
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+	background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	background: -o-linear-gradient(top,#005fbf,003f7f);
+
+	background-color:#005fbf;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:18px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#f7c274;
+}
